@@ -309,7 +309,7 @@ module.exports = (config) => {
     coverageReporter: {
       includeAllSources: true,
       reporters: [
-        {type: 'text'},
+        {type: 'lcov'},
       ],
     },
 

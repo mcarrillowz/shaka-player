@@ -110,7 +110,7 @@ jobs:
 
           python build/test.py \
             --browsers "$browser" \
-            --reporters spec --spec-hide-passed \
+            --reporters coverage,spec --spec-hide-passed \
             ${{ matrix.extra_flags }}
 
   build_in_docker:
